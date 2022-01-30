@@ -10,7 +10,7 @@ if(randomNumber == 1){
 else if(randomNumber == 2){
     computerMove = 'papier';
 }
-else(randomNumber == 3){
+else if(randomNumber == 3){
     computerMove = 'nożyce';
 }
 
@@ -26,11 +26,11 @@ let playerMove = 'nieznany ruch';
 if(playerInput == '1'){
   playerMove = 'kamień';
 }
-else if(randomNumber == 2){
-    computerMove = 'papier';
+else if(playerInput == '2'){
+    playerMove = 'papier';
 }
-else(randomNumber == 3){
-    computerMove = 'nożyce';
+else if(playerInput == '3'){
+    playerMove = 'nożyce';
 }
 
 printMessage('Twój ruch to: ' + playerMove);
