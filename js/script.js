@@ -45,7 +45,7 @@ else  if( computerMove == 'papier' && playerMove == 'nożyce'){
     printMessage('Ty wygrywasz!');
   }
   else  if( computerMove == 'papier' && playerMove == 'kamień'){
-    printMessage('Przegrywas!');
+    printMessage('Przegrywasz!');
   } 
  else if( computerMove == 'nożyce' && playerMove == 'kamień'){
     printMessage('Ty wygrywasz!');
