@@ -2,6 +2,6 @@ let computerMove = `kamień`;
 
 printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
 
-let computerMove = `papier`;
+let playerMove = `papier`;
 
-printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to kamień, to wygrywasz!');
+printMessage('Zagrałes ' + playerMove + '! Ruch komputera to kamień, wygrywasz!');
