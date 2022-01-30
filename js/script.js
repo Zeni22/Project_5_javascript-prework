@@ -44,7 +44,13 @@ else  if( computerMove == 'kamień' && playerMove == 'nożyce'){
 else  if( computerMove == 'papier' && playerMove == 'nożyce'){
     printMessage('Ty wygrywasz!');
   }
-else if( computerMove == 'nożyce' && playerMove == 'papier'){
+  else  if( computerMove == 'papier' && playerMove == 'kamień'){
+    printMessage('Przegrywas!');
+  } 
+ else if( computerMove == 'nożyce' && playerMove == 'kamień'){
+    printMessage('Ty wygrywasz!');
+ }
+ else if( computerMove == 'nożyce' && playerMove == 'papier'){
     printMessage('Przegrywasz!');
  }
 else if( computerMove == playerMove){
